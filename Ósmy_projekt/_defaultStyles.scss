@@ -1,0 +1,57 @@
+// RESET
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// DEFAULT STYLES
+
+html {
+    font-family: arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #131313;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(248, 106, 87);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: darken(rgb(248, 106, 87), 8%);
+    }
+}
